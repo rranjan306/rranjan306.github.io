@@ -1,0 +1,129 @@
+@import url('https://fonts.google.com/specimen/Rubik');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: hsl(226, 43%, 10%);
+}
+
+.wrapper{
+	width: 80%;
+  margin: auto;
+}
+
+.container{
+	margin-top: 30px;
+	display: flex;
+}
+
+.profile{
+	position: relative;
+	width: 100%;
+	height: 530px;
+	color: #fff;
+	background-color: hsl(235, 46%, 20%);
+	position: relative;
+	border-radius: 10px;
+}
+
+.photo{
+	position: absolute;
+  top: auto;
+  left: auto;
+	width: inherit;
+	height: 350px;
+	background-color: hsl(246, 80%, 60%);
+	border-radius: 10px;
+}
+
+.img{
+	padding: 25px;
+}
+
+.text{
+	position: absolute;
+	bottom: 35px;
+	font-family: Rubik;
+}
+
+.card-container{
+	display: grid;
+	grid-template-columns: repeat(3, minmax(250px, 1fr));
+	grid-column-gap: 30px;
+	color: #fff;
+	margin-left: 50px;
+}
+
+.work{
+	position: relative;
+	background-color: hsl(15, 100%, 70%);
+	border-radius: 10px;
+	height: 175px;
+}
+
+.play{
+	position: relative;
+	background-color: hsl(195, 74%, 62%);
+	border-radius: 10px;
+	height: 175px;
+}
+
+.study{
+	position: relative;
+	background-color: hsl(348, 100%, 68%);
+	border-radius: 10px;
+	height: 175px;
+}
+
+
+.excercise{
+	position: relative;
+	background-color: hsl(145, 58%, 55%);
+	border-radius: 10px;
+	height: 175px;
+}
+
+
+.social{
+	position: relative;
+	background-color: hsl(264, 64%, 52%);
+	border-radius: 10px;
+	height: 175px;
+}
+
+
+.self-care{
+	position: relative;
+	background-color: hsl(43, 84%, 65%);
+	border-radius: 10px;
+	height: 175px;
+}
+
+
+.icon{
+	position: absolute;
+	top: 0;
+	right: 10px;
+}
+
+.content{
+	position: absolute;
+	top: 50px;
+	width: 100%;
+	height: 100%;
+	background-color: hsl(235, 46%, 20%);
+	border-radius: 15px;
+}
+
+.title{
+	font-size: 18px;
+}
+
+.card .play{
+	background-color: hsl(195, 74%, 62%);
+}
+
